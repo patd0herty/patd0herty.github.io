@@ -150,7 +150,9 @@ Bottom Grid Formatting
         "central central perfect"
         "portfolio portfolio portfolio";
         grid-template-columns:50% 20% 30%;
-        grid-template-rows:35% 1fr 1fr;
+        grid-template-rows:24% 23% 1fr;
+        /* FR measurement used due to older versions of grid also using fr in relation to it,
+         simply kept now to signify using the remainder of the space */
     }
     .perfect img{
         width:100%;
