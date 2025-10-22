@@ -142,6 +142,10 @@ Bottom Grid Formatting
     margin:3em auto;
 }
 
+.neon img{
+    width:100%;
+}
+
 @media screen and (min-width:720px){
     .wrapper {
         height:100%;
